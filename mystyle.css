@@ -1,0 +1,28 @@
+.common{
+	border:1px solid #f7f7f7;
+	border-radius:5px;
+	box-shadow:0 0 1px 1px grey;
+	color:#000;
+	background:rgba(252,252,252,.4);
+	margin-top:10px;margin-bottom:3px
+}
+body{
+	background-size:cover;
+	background-position:center;
+}
+.button1{
+	border:1px solid #f7f7f7;
+	border-radius:5px;
+	box-shadow:0 0 1px 1px grey;
+	color:#000;
+	margin-top:10px;
+	margin-bottom:3px
+	}
+.button1:hover{
+	background:#f2f2f2
+}
+
+.text{
+	color:rgb(230,230,230);
+	font:17px Daggersquare,Helvetica;
+}

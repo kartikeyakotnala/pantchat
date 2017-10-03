@@ -1,0 +1,113 @@
+<!doctype hmtl>
+<html lang='en'>
+<head>
+	<title>PantChat</title>
+	<meta charset='UTF-8'/>
+	<meta name='keyword' content='chat,pantnagar,pantchat,stranger'/>
+	<meta name='description' content='PantChat is a chatting wesite designed to bring all the colleges of Pantnagar University together '/>
+	<meta name='author' content='K.K'/>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0'/>
+</head>
+
+<body class='container-fluid img-responsive' background='images\rainbow.jpg'>	
+<div class='row'>
+	<header>
+		<div class='common row'>
+			<div class='col-md-3'><a href='index.html'><img class='img-responsive' src='images\chat.png'></a></div>
+		</div>
+	</header>
+	<br>
+	<section>
+		<div class='col-md-4 col-md-offset-1 common'>
+			<h2>&nbspSignUp </h2><hr>
+			<table style='margin:0px auto;'>
+				<form method='post' action='http://localhost/myprojects/pantchat/SignUp.php'>
+					<tr>
+					<div class='form-group'>
+						<td><label class='control-label' for='Name'>Name</label></td>
+						<td><input class='form-control' type='text' id='Name' name='Name' placeholder='Name'/></td>
+					</div>
+					</tr>
+					<tr>
+					<div class='form-group'>
+						<td><label class='control-label' for='E-mail'>E-mail</label></td>
+						<td><input class='form-control' type='email' id='E-mail' name='E-mail' placeholder='E-mail'/></td>
+					</div>
+					</tr>
+					<tr>
+					<div class='form-group'>
+						<td><label class='control-label' for='Sex'>Sex</label></td>
+						<td><select class='form-control' id='Sex' name='Sex' placeholder='Sex'>
+								<option value='M'>M</option>
+								<option value='F'>F</option>
+							</select></td>
+					</div>
+					</tr>
+					<tr>
+					<div class='form-group'>
+						<td><label class='control-label' for='Id'>College Id&nbsp</label></td>
+						<td><input class='form-control' type='number' max='90000' min='40000' id='Id' name='Id' placeholder='Id'/></td>
+					</div>
+					</tr>
+					<tr>
+					<div class='form-group'>
+						<td><label class='control-label' for='Year'>Year of Study&nbsp</label></td>
+						<td><input class='form-control' type='number' max='4' min='1' id='Year' name='Year' placeholder='Year'/></td>
+					</div>
+					</tr>
+					<tr>
+						<div class='form-group'>
+						<td></td>
+						<td><br><button type='submit' class='btn btn-default'>SignUp</button></td>				
+						</div>
+					</tr>
+				</form>
+			</table>
+		</div>
+	
+		<div class='col-md-4 col-md-offset-2 common'>
+			<h2>&nbspLogIn </h2><hr>
+			<table style='margin:0px auto;'>
+				<form method='post' action='http://localhost/myprojects/pantchat/Login.php'>
+					<tr>
+					<div class='form-group'>
+						<td><label class='control-label' for='Name1'>Name</label></td>
+						<td><input class='form-control' type='text' id='Name1' name='Name' placeholder='Name'/></td>
+					</div>
+					</tr>
+					<tr>
+						<div class='form-group'>
+						<td><label class='control-label' for='Id1'>College Id&nbsp</label></td>
+						<td><input class='form-control' type='number' max='90000' min='40000' id='Id1' name='Id' placeholder='Id'/></td>
+						</div>
+					</tr>
+					<tr>
+						<div class='form-group'>
+						<td></td>
+						<td><br><button type='submit' class='btn btn-default'>LogIn</button></td>				
+						</div>
+					</tr>
+				</form>
+			</table>
+		</div>
+	</section>
+	
+	<div class='container-fluid'>
+		<div class='row'></div><br><br><br><br>
+		<div class='row'>	
+			<footer class='col-md-12'>
+				<p  class='text' style='display:inline;'>Contact: pantchat@gmail.com  
+					<img style='float:right;' class=' col-md-1 col-xs-3 col-sm-2 img-responsive' src='images/footer.png'/><br>
+					Follow us on facebook: <a href='_BLANK'> FacebookPage PantChat</a></p><br>
+					<button class='button1' style='font-size:10px; margin-top:3px;'><b><span style='color:blue'>Crafted By:</span><span style='color:rgb(0,162,232)'> K.K</span></b></button>
+			</footer>
+		</div>
+	</div>	
+</div>
+<div>	
+		<link rel='stylesheet' href='mystyle.css'/>	
+		<link rel='stylesheet' href='bootstrap\css\bootstrap.min.css'/>
+		<link rel='stylesheet' href='bootstrap\css\bootstrap-theme.min.css'/>
+</div>		
+</body>
+</html>	
